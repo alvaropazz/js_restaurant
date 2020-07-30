@@ -1,0 +1,78 @@
+@font-face {
+  font-family: Cyrene;
+  src:
+    url(/src/assets/Cyrene+Regular.otf)
+    format('opentype');
+}
+
+html {
+  line-height: 1.15;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Lora', serif;
+  padding: 5em;
+  min-width: 1000px;
+  font-size: 10px;
+  background: rgb(236,233,230);
+  background: radial-gradient(circle, rgba(236,233,230,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+main {
+  padding: 10em;
+  border: 1em solid #005A28;
+  background-color: #fefbf9;
+  height: 90vh;
+  color: #005A28;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 2em;
+  margin-bottom: 2em;
+}
+
+nav p {
+  padding: 1em;
+  border: 0.1em solid #005A28;
+  margin: 0;
+}
+
+h1 {
+  font-family: Cyrene, Georgia, 'Times New Roman', Times, serif;
+  font-size: 20em;
+  margin: 0;
+}
+
+.image-container {
+  height: 40em;
+  width: auto;
+  background-image: url(/src/assets/flowers.png);
+  background-position: center;
+  background-size: 40%;
+  background-repeat: no-repeat;
+}
+
+h2 {
+  font-size: 2em;
+  font-family: Cyrene, Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: 1em;
+  margin-top: 3em;
+  margin-bottom: 0;
+}

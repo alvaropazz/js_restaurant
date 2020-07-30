@@ -1,0 +1,25 @@
+{
+  "name": "js_restaurant",
+  "version": "1.0.0",
+  "description": "This is a HTML/CSS/JavaScript Restaurant Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvaropazz/js_restaurant.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alvaropazz/js_restaurant/issues"
+  },
+  "homepage": "https://github.com/alvaropazz/js_restaurant#readme",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}

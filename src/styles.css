@@ -86,8 +86,17 @@ h1 {
 }
 
 .menu-items :first-child {
-  font-weight: bold;
   font-size: 2em;
+}
+
+.about {
+  font-size: 10em;
+}
+
+.about-us {
+  font-size: 3em;
+  padding: 2em;
+  margin: 0 2em;
 }
 
 h2 {

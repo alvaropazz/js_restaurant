@@ -82,6 +82,12 @@ h1 {
   list-style: none;
   font-size: 2em;
   padding: 0;
+  font-family: Cyrene, Georgia, 'Times New Roman', Times, serif;
+}
+
+.menu-items :first-child {
+  font-weight: bold;
+  font-size: 2em;
 }
 
 h2 {

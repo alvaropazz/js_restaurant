@@ -134,6 +134,66 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
+/***/ "./src/assets/bosques.png":
+/*!********************************!*\
+  !*** ./src/assets/bosques.png ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"aa5d7a377dceb775bcf17b1d9e1f6019.png\");\n\n//# sourceURL=webpack:///./src/assets/bosques.png?");
+
+/***/ }),
+
+/***/ "./src/assets/menu-bar.png":
+/*!*********************************!*\
+  !*** ./src/assets/menu-bar.png ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"612d17ef5386bd66e83f8a6b3786734d.png\");\n\n//# sourceURL=webpack:///./src/assets/menu-bar.png?");
+
+/***/ }),
+
+/***/ "./src/assets/menu-dinner.png":
+/*!************************************!*\
+  !*** ./src/assets/menu-dinner.png ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"ed0774f315c8807212e56f0fe7ea478a.png\");\n\n//# sourceURL=webpack:///./src/assets/menu-dinner.png?");
+
+/***/ }),
+
+/***/ "./src/assets/menu-special.png":
+/*!*************************************!*\
+  !*** ./src/assets/menu-special.png ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"2879fa4c635bd7e5d19d8dd84ae14f1e.png\");\n\n//# sourceURL=webpack:///./src/assets/menu-special.png?");
+
+/***/ }),
+
+/***/ "./src/assets/menu-wine.png":
+/*!**********************************!*\
+  !*** ./src/assets/menu-wine.png ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"8e6d2cac26357d4e8e2040efc818dbc1.png\");\n\n//# sourceURL=webpack:///./src/assets/menu-wine.png?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -142,7 +202,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sections_navigation__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./sections/navigation */ \"./src/sections/navigation.js\");\n/* harmony import */ var _sections_menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./sections/menu */ \"./src/sections/menu.js\");\n/* harmony import */ var _sections_about__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./sections/about */ \"./src/sections/about.js\");\n/* harmony import */ var _sections_home__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./sections/home */ \"./src/sections/home.js\");\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./styles.css */ \"./src/styles.css\");\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_css__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _assets_Cyrene_Regular_otf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./assets/Cyrene+Regular.otf */ \"./src/assets/Cyrene+Regular.otf\");\n\n\n\n\n\n\n\nconst main = document.querySelector('main');\n\nObject(_sections_navigation__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\nconst reset = () => {\n  main.innerHTML = '';\n};\n\nmain.addEventListener('load', Object(_sections_home__WEBPACK_IMPORTED_MODULE_3__[\"default\"])());\n\nmain.addEventListener('click', (e) => {\n  e.preventDefault();\n  if (e.target.className === 'menu-link') {\n    reset();\n    Object(_sections_navigation__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n    Object(_sections_menu__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n  }\n});\n\nmain.addEventListener('click', (e) => {\n  e.preventDefault();\n  if (e.target.className === 'about-link') {\n    reset();\n    Object(_sections_navigation__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n    Object(_sections_about__WEBPACK_IMPORTED_MODULE_2__[\"default\"])();\n  }\n});\n\nmain.addEventListener('click', (e) => {\n  e.preventDefault();\n  if (e.target.className === 'home-link') {\n    reset();\n    Object(_sections_navigation__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n    Object(_sections_home__WEBPACK_IMPORTED_MODULE_3__[\"default\"])();\n  }\n});\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sections_navigation__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./sections/navigation */ \"./src/sections/navigation.js\");\n/* harmony import */ var _sections_menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./sections/menu */ \"./src/sections/menu.js\");\n/* harmony import */ var _sections_about__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./sections/about */ \"./src/sections/about.js\");\n/* harmony import */ var _sections_home__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./sections/home */ \"./src/sections/home.js\");\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./styles.css */ \"./src/styles.css\");\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_css__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _assets_Cyrene_Regular_otf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./assets/Cyrene+Regular.otf */ \"./src/assets/Cyrene+Regular.otf\");\n/* harmony import */ var _assets_bosques_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./assets/bosques.png */ \"./src/assets/bosques.png\");\n/* harmony import */ var _assets_menu_bar_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./assets/menu-bar.png */ \"./src/assets/menu-bar.png\");\n/* harmony import */ var _assets_menu_dinner_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./assets/menu-dinner.png */ \"./src/assets/menu-dinner.png\");\n/* harmony import */ var _assets_menu_special_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./assets/menu-special.png */ \"./src/assets/menu-special.png\");\n/* harmony import */ var _assets_menu_wine_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./assets/menu-wine.png */ \"./src/assets/menu-wine.png\");\n\n\n\n\n\n\n\n\n\n\n\n\nconst main = document.querySelector('main');\n\nObject(_sections_navigation__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\nconst reset = () => {\n  main.innerHTML = '';\n};\n\nmain.addEventListener('load', Object(_sections_home__WEBPACK_IMPORTED_MODULE_3__[\"default\"])());\n\nmain.addEventListener('click', (e) => {\n  e.preventDefault();\n  if (e.target.className === 'menu-link') {\n    reset();\n    Object(_sections_navigation__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n    Object(_sections_menu__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n  }\n});\n\nmain.addEventListener('click', (e) => {\n  e.preventDefault();\n  if (e.target.className === 'about-link') {\n    reset();\n    Object(_sections_navigation__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n    Object(_sections_about__WEBPACK_IMPORTED_MODULE_2__[\"default\"])();\n  }\n});\n\nmain.addEventListener('click', (e) => {\n  e.preventDefault();\n  if (e.target.className === 'home-link') {\n    reset();\n    Object(_sections_navigation__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n    Object(_sections_home__WEBPACK_IMPORTED_MODULE_3__[\"default\"])();\n  }\n});\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
@@ -154,7 +214,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sec
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\nconst main = document.querySelector('main');\n\nconst about = () => {\n  const aboutTitle = document.createElement('h1');\n  const aboutCont = document.createElement('p');\n  const subHeader = document.createElement('h2');\n  const subCont = document.createElement('span');\n  aboutTitle.innerHTML = 'ABOUT US';\n  aboutTitle.className = 'about';\n  aboutCont.className = 'about-us';\n  aboutCont.innerHTML = 'I\\'m baby kogi franzen gentrify fingerstache asymmetrical tilde you probably haven\\'t heard of them cornhole pug intelligentsia copper mug fashion axe williamsburg cronut. Blue bottle skateboard succulents synth ramps. Tofu kitsch scenester franzen tousled next level bitters. Cred lomo scenester copper mug, offal direct trade jianbing irony art party sustainable shabby chic.';\n  subCont.innerHTML = '• BAR • RESTAURANT •';\n\n  main.appendChild(aboutTitle);\n  main.appendChild(aboutCont);\n  main.appendChild(aboutCont);\n  main.appendChild(subHeader);\n  subHeader.appendChild(subCont);\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (about);\n\n//# sourceURL=webpack:///./src/sections/about.js?");
+eval("__webpack_require__.r(__webpack_exports__);\nconst main = document.querySelector('main');\n\nconst about = () => {\n  const aboutTitle = document.createElement('h1');\n  const aboutCont = document.createElement('p');\n  const subHeader = document.createElement('h2');\n  const subCont = document.createElement('span');\n  aboutTitle.innerHTML = 'ABOUT US';\n  aboutTitle.className = 'about';\n  aboutCont.className = 'about-us';\n  aboutCont.innerHTML = 'I\\'m baby kogi franzen gentrify fingerstache asymmetrical tilde you probably haven\\'t heard of them cornhole pug intelligentsia copper mug fashion axe williamsburg cronut. Blue bottle skateboard succulents synth ramps. Tofu kitsch scenester franzen tousled next level bitters. Cred lomo scenester copper mug, offal direct trade jianbing irony art party sustainable shabby chic.';\n  subCont.innerHTML = '• BAR • RESTAURANT •';\n\n  main.appendChild(aboutTitle);\n  main.appendChild(aboutCont);\n  main.appendChild(subHeader);\n  subHeader.appendChild(subCont);\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (about);\n\n//# sourceURL=webpack:///./src/sections/about.js?");
 
 /***/ }),
 

@@ -5,7 +5,6 @@ import home from './sections/home';
 import './styles.css';
 import './assets/Cyrene+Regular.otf';
 
-
 const main = document.querySelector('main');
 
 navigation();

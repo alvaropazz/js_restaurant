@@ -1,8 +1,3 @@
-// import '../../src/assets/menu-bar.png';
-// import '../../src/assets/menu-dinner.png';
-// import '../../src/assets/menu-special.png';
-// import '../../src/assets/menu-wine.png';
-
 const main = document.querySelector('main');
 
 const menu = () => {

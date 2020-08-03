@@ -142,7 +142,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"aec4f57f5112fecb90d917ea35aad35d.png\");\n\n//# sourceURL=webpack:///./src/assets/bosques.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"aca521291b4247c17735afdccfac890c.png\");\n\n//# sourceURL=webpack:///./src/assets/bosques.png?");
 
 /***/ }),
 
@@ -154,7 +154,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"978e2879172a62e2e5aca92aed27c973.png\");\n\n//# sourceURL=webpack:///./src/assets/menu-bar.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"6bbb827f0cd98a419fccc40d58731d8f.png\");\n\n//# sourceURL=webpack:///./src/assets/menu-bar.png?");
 
 /***/ }),
 
@@ -166,7 +166,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"34c92550336ab234592dcde814805b3c.png\");\n\n//# sourceURL=webpack:///./src/assets/menu-dinner.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"825c0daad674d031236f9be3b14667f3.png\");\n\n//# sourceURL=webpack:///./src/assets/menu-dinner.png?");
 
 /***/ }),
 
@@ -178,7 +178,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"5ff786cce5ace52784623bff2c9ea363.png\");\n\n//# sourceURL=webpack:///./src/assets/menu-special.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"f68a90b1b11d00763dc726ec8f298278.png\");\n\n//# sourceURL=webpack:///./src/assets/menu-special.png?");
 
 /***/ }),
 
@@ -190,7 +190,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"d1b19470d109b25a5d6b5398ea16a75c.png\");\n\n//# sourceURL=webpack:///./src/assets/menu-wine.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"f10d608bb5a2328c95be37644fa9b27e.png\");\n\n//# sourceURL=webpack:///./src/assets/menu-wine.png?");
 
 /***/ }),
 

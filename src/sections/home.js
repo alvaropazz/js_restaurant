@@ -6,7 +6,7 @@ const home = () => {
   const subHeader = document.createElement('h2');
   const subCont = document.createElement('span');
   homeTitle.innerHTML = 'EL BOSQUE';
-  homeLogo.src = '../src/assets/bosques.png';
+  homeLogo.src = require('../../src/assets/bosques.png');
   homeLogo.alt = 'flowers';
   homeLogo.className = 'image-container';
   subCont.innerHTML = '• BAR • RESTAURANT •';

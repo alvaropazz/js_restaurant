@@ -62,7 +62,7 @@ h1 {
 }
 
 .image-container {
-  height: 20em;
+  height: 25em;
   object-fit: contain;
 }
 
@@ -91,6 +91,7 @@ h1 {
 
 .about {
   font-size: 10em;
+  color: #e11914;
 }
 
 .about-us {

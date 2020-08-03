@@ -25,16 +25,16 @@ body {
   padding: 5em;
   min-width: 1366px;
   font-size: 10px;
-  background: rgb(236,233,230);
-  background: radial-gradient(circle, rgba(236,233,230,1) 0%, rgba(255,255,255,1) 100%);
+  background: rgb(236, 233, 230);
+  background: radial-gradient(circle, rgba(236, 233, 230, 1) 0%, rgba(255, 255, 255, 1) 100%);
 }
 
 main {
   padding: 10em;
-  border: 1em solid #005A28;
+  border: 1em solid #005a28;
   background-color: #fefbf9;
   height: 90vh;
-  color: #005A28;
+  color: #005a28;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -51,7 +51,7 @@ nav {
 
 nav p {
   padding: 1em;
-  border: 0.1em solid #005A28;
+  border: 0.1em solid #005a28;
   margin: 0;
 }
 

@@ -4,6 +4,11 @@ import about from './sections/about';
 import home from './sections/home';
 import './styles.css';
 import './assets/Cyrene+Regular.otf';
+import './assets/bosques.png';
+import './assets/menu-bar.png';
+import './assets/menu-dinner.png';
+import './assets/menu-special.png';
+import './assets/menu-wine.png';
 
 const main = document.querySelector('main');
 

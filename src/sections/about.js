@@ -13,7 +13,6 @@ const about = () => {
 
   main.appendChild(aboutTitle);
   main.appendChild(aboutCont);
-  main.appendChild(aboutCont);
   main.appendChild(subHeader);
   subHeader.appendChild(subCont);
 };

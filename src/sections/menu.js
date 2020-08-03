@@ -1,3 +1,8 @@
+import special from '../assets/menu-special.png';
+import dinner from '../assets/menu-dinner.png';
+import bar from '../assets/menu-bar.png';
+import wine from '../assets/menu-wine.png';
+
 const main = document.querySelector('main');
 
 const menu = () => {
@@ -10,7 +15,7 @@ const menu = () => {
   const specialCont = document.createElement('ul');
   const specialTitle = document.createElement('li');
   descriptionSp.className = 'menu-description';
-  imgSp.src = require('../../src/assets/menu-special.png');
+  imgSp.src = {special};
   imgSp.alt = 'Special';
   imgSp.className = 'menu-img';
   specialCont.className = 'menu-items';
@@ -26,7 +31,7 @@ const menu = () => {
   const mainCont = document.createElement('ul');
   const mainTitle = document.createElement('li');
   descriptionMain.className = 'menu-description';
-  imgMain.src = require('../../src/assets/menu-dinner.png');
+  imgMain.src = {dinner};
   imgMain.alt = 'Main';
   imgMain.className = 'menu-img';
   mainCont.className = 'menu-items';
@@ -42,7 +47,7 @@ const menu = () => {
   const barCont = document.createElement('ul');
   const barTitle = document.createElement('li');
   descriptionBar.className = 'menu-description';
-  imgBar.src = require('../../src/assets/menu-bar.png');
+  imgBar.src = {bar};
   imgBar.alt = 'Bar';
   imgBar.className = 'menu-img';
   barCont.className = 'menu-items';
@@ -58,7 +63,7 @@ const menu = () => {
   const wineCont = document.createElement('ul');
   const wineTitle = document.createElement('li');
   descriptionWine.className = 'menu-description';
-  imgWine.src = require('../../src/assets/menu-wine.png');
+  imgWine.src = {wine};
   imgWine.alt = 'Wine';
   imgWine.className = 'menu-img';
   wineCont.className = 'menu-items';

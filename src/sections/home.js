@@ -1,5 +1,6 @@
-const main = document.querySelector('main');
 import bosque from '../assets/bosques.png';
+
+const main = document.querySelector('main');
 
 const home = () => {
   const homeTitle = document.createElement('h1');

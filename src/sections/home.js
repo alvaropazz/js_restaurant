@@ -7,7 +7,7 @@ const home = () => {
   const subHeader = document.createElement('h2');
   const subCont = document.createElement('span');
   homeTitle.innerHTML = 'EL BOSQUE';
-  homeLogo.src = {bosque};
+  homeLogo.src = bosque;
   homeLogo.alt = 'flowers';
   homeLogo.className = 'image-container';
   subCont.innerHTML = '• BAR • RESTAURANT •';

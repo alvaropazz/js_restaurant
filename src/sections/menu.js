@@ -15,7 +15,7 @@ const menu = () => {
   const specialCont = document.createElement('ul');
   const specialTitle = document.createElement('li');
   descriptionSp.className = 'menu-description';
-  imgSp.src = {special};
+  imgSp.src = special;
   imgSp.alt = 'Special';
   imgSp.className = 'menu-img';
   specialCont.className = 'menu-items';
@@ -31,7 +31,7 @@ const menu = () => {
   const mainCont = document.createElement('ul');
   const mainTitle = document.createElement('li');
   descriptionMain.className = 'menu-description';
-  imgMain.src = {dinner};
+  imgMain.src = dinner;
   imgMain.alt = 'Main';
   imgMain.className = 'menu-img';
   mainCont.className = 'menu-items';
@@ -47,7 +47,7 @@ const menu = () => {
   const barCont = document.createElement('ul');
   const barTitle = document.createElement('li');
   descriptionBar.className = 'menu-description';
-  imgBar.src = {bar};
+  imgBar.src = bar;
   imgBar.alt = 'Bar';
   imgBar.className = 'menu-img';
   barCont.className = 'menu-items';
@@ -63,7 +63,7 @@ const menu = () => {
   const wineCont = document.createElement('ul');
   const wineTitle = document.createElement('li');
   descriptionWine.className = 'menu-description';
-  imgWine.src = {wine};
+  imgWine.src = wine;
   imgWine.alt = 'Wine';
   imgWine.className = 'menu-img';
   wineCont.className = 'menu-items';

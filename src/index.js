@@ -2,7 +2,8 @@ import navigation from './sections/navigation';
 import menu from './sections/menu';
 import about from './sections/about';
 import home from './sections/home';
-
+import './styles.css';
+import './assets/Cyrene+Regular.otf';
 
 const main = document.querySelector('main');
 

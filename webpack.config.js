@@ -8,4 +8,26 @@ module.exports = {
   },
   watch: true,
   mode: 'development',
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
+      },
+      {
+        test: /^(?!.*\.generated\.ttf$).*\.ttf$/,
+        use: ['css-loader', 'fontface-loader'],
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/,
+        loader: 'file-loader',
+      },
+      {
+        test: /\.(png|svg|jpg|gif)$/,
+        use: [
+          'file-loader',
+        ],
+      },
+    ],
+  },
 };

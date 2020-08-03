@@ -1,9 +1,9 @@
-@font-face {
+/* @font-face {
   font-family: Cyrene;
   src:
     url(/src/assets/Cyrene+Regular.otf)
     format('opentype');
-}
+} */
 
 html {
   line-height: 1.15;

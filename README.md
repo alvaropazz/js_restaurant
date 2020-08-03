@@ -17,7 +17,7 @@ This is a dinamically generated JavaScript restaurant page.
 
 ## Live Link
 
-![Live Demo](https://alvaropaz.me/js_restaurant/)
+[Live Demo](https://alvaropaz.me/js_restaurant/)
 
 ## Technologies Used
 

@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/alvaropazz/js_restaurant#readme",
   "devDependencies": {
+    "copy-webpack-plugin": "^6.0.3",
     "css-loader": "^4.2.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",

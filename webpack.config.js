@@ -15,22 +15,8 @@ module.exports = {
         use: ['style-loader', 'css-loader'],
       },
       {
-        test: /^(?!.*\.generated\.ttf$).*\.ttf$/,
-        use: ['css-loader', 'fontface-loader'],
-      },
-      {
         test: /\.(woff|woff2|eot|ttf|otf)$/,
         loader: 'file-loader',
-      },
-      {
-        test: /\.(png|svg|jpg|gif)$/,
-        use: [
-          'file-loader',
-        ],
-      },
-      {
-        test: /\.html$/i,
-        loader: 'html-loader',
       },
       {
         test: /\.(jpg|png)$/,

@@ -1,0 +1,109 @@
+/* @font-face {
+  font-family: Cyrene;
+  src:
+    url(/src/assets/Cyrene+Regular.otf)
+    format('opentype');
+} */
+
+html {
+  line-height: 1.15;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Lora', serif;
+  padding: 5em;
+  min-width: 1366px;
+  font-size: 10px;
+  background: rgb(236, 233, 230);
+  background: radial-gradient(circle, rgba(236, 233, 230, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+main {
+  padding: 10em;
+  border: 1em solid #005a28;
+  background-color: #fefbf9;
+  height: 90vh;
+  color: #005a28;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 2em;
+  margin-bottom: 2em;
+  justify-self: self-start;
+}
+
+nav p {
+  padding: 1em;
+  border: 0.1em solid #005a28;
+  margin: 0;
+}
+
+h1 {
+  font-family: Cyrene, Georgia, 'Times New Roman', Times, serif;
+  font-size: 20em;
+  margin: 0;
+}
+
+.image-container {
+  height: 25em;
+  object-fit: contain;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menu-img {
+  height: 20em;
+  width: 25em;
+  object-fit: contain;
+}
+
+.menu-items {
+  margin-top: 2em;
+  list-style: none;
+  font-size: 2em;
+  padding: 0;
+  font-family: Cyrene, Georgia, 'Times New Roman', Times, serif;
+}
+
+.menu-items :first-child {
+  font-size: 2em;
+}
+
+.about {
+  font-size: 10em;
+  color: #e11914;
+}
+
+.about-us {
+  font-size: 3em;
+  padding: 2em;
+  margin: 0 2em;
+}
+
+h2 {
+  font-size: 2em;
+  font-family: Cyrene, Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: 1em;
+  margin-top: 3em;
+  margin-bottom: 0;
+}
